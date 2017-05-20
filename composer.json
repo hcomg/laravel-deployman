@@ -1,0 +1,22 @@
+{
+    "name": "hcomg/laravel-deployman",
+    "description": "Deploy your Laravel applications via Github or Bitbucket Hooks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "HCOMG",
+            "email": "hcomg.corp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/framework": ">=5.0.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Deployman\\": "src/"
+        }
+    }
+}
